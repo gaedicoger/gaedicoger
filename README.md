@@ -1,7 +1,12 @@
-## Salut la promo Gisèle !
-# Premier README en exercice aujourd'hui!
-Gaéd
+# Hey !
+Je suis Gaédic Oger
+⭐ Ingénieure pédagogique
+🧱 Développeuse fullstack en construction ... 
 
-Je fais une petit modif juste pour voir! 
+## Objectifs pro:
+- Découvrir les nombreux métiers derrière le terme "développeur"
+- Développer des applications pédagogiques
+- Déployer des systèmes LMS
 
-Une deuxième pour voir car je m'entraîne
+## Me contacter :
+📌 Via Linkedin : [Cliquez ici](www.linkedin.com/in/gaedic-oger)
