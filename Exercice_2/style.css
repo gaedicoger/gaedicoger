@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+}
+
+.formetexte {
+  color: hotpink;
+  text-align: center;
+  font-family:
+    "Comic Sans MS", "Comic Sans", cursive; /* toujours proposer un choix alternatif pour le navigateur, demander plus précisement comment déclarer correctement les polices*/
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border: 5px solid hotpink;
+  border-radius: 90% 90%;
+}
