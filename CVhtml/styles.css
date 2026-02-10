@@ -40,24 +40,38 @@ body {
 
 header {
   display: flex;
+  justify-content: space-evenly;
   background-color: rgb(253, 218, 174);
   color: var(--color-primary);
 }
 
+#imageprofile {
+  width: 15%;
+}
+
+#headprofile {
+}
+
 nav {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-primary);
   border-radius: 20% 20%;
-  font-family: Bagel fat one;
-  text-align: center;
-  color: white;
   width: 100px;
   height: 100px;
+  font-family: Bagel fat one;
+  color: white;
+  text-align: center;
+}
+
+.textButton {
 }
 
 h1,
