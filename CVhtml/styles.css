@@ -82,7 +82,8 @@ h2 {
   font-weight: 300;
 }
 
-h3 {
+h3,
+label {
   color: var(--color-four);
   font-family: glacial indifference;
   font-weight: bold;
@@ -116,6 +117,10 @@ ul {
   display: flex;
   width: 15%;
   border-radius: 20% 30% 20% 30%;
+}
+
+.logo {
+  width: 15%;
 }
 
 #frise-formations {
