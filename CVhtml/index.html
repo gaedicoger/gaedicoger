@@ -12,14 +12,9 @@
   </head>
   <body>
     <header>
-      <img
-        id="imageprofile"
-        src="profilimage.png"
-        alt="image illustrant la développeuse"
-      />
-      <div id="headprofile">
-        <h1>Gaédic Oger</h1>
-        <h2>Développeuse fullstack</h2>
+      <div>
+        <h1 id="name">Gaédic Oger</h1>
+        <h2 id="profession">Développeuse fullstack</h2>
         <p class="Soustitres">Reconversion en cours</p>
       </div>
       <nav>
@@ -39,8 +34,16 @@
           <div class="textButton"><a href="#loisirs">Loisirs</a></div>
         </div>
       </nav>
+      <div id="headprofile"></div>
     </header>
     <main>
+      <section class="stylesection">
+        <button id="btn">Hello !</button>
+        <p id="text1">On me voit !</p>
+
+        <img id="profilimage" src="profilimage.png" />
+        <button id="btn2">Affiche la photo</button>
+      </section>
       <section class="stylesection">
         <h2 id="apropos">A propos</h2>
         <p>
@@ -130,5 +133,6 @@
       ></a>
       <a href="" title="Lien mail" alt="Lien pour envoyer un mail"></a>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

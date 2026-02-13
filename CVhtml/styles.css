@@ -45,7 +45,8 @@ header {
   color: var(--color-primary);
 }
 
-#imageprofile {
+#profilimage {
+  display: none;
   width: 15%;
 }
 
