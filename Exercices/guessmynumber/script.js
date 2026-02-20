@@ -19,13 +19,16 @@ function didWin(givenNumber) {
 
 function gamePlay() {
   let givenNumber = askNumber();
+  //console.log(givenNumber, typeof givenNumber);
   let hasWon = didWin(givenNumber);
+  console.log(hasWon);
 
-  if (hasWon == true) {
-    alert("Vous avez gagné!");
-  } else {
-    alert("Essaie encore");
+  while (!hasWon) {
+    givenNumber = askNumber(); //demander un nouveau nombre et le stocker
+    //console.log(givenNumber, typeof givenNumber);
+    hasWon = didWin(givenNumber); // on met à jour le nombre dans la variable
   }
+  console.log("Bravo !");
 }
 
 gamePlay();
