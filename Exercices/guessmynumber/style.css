@@ -1,0 +1,23 @@
+#boxIndices {
+  display: flex;
+  background-color: bisque;
+  border: solid 5px hotpink;
+}
+
+#indices {
+  font-size: 12;
+  color: hotpink;
+  font-weight: 200;
+}
+
+#attempts {
+  display: flex;
+  background-color: rgb(147, 248, 177);
+  border: solid 5px rgb(2, 202, 36);
+}
+
+#numberAttempts {
+  font-size: 18;
+  color: green;
+  font-weight: 200;
+}

@@ -9,29 +9,43 @@
     <header></header>
     <main>
       <section>
+        <h1>Joueur 1 :</h1>
+        <p>Entrer le nombre à faire deviner compris entre 0 et 50.</p>
         <p>
-          Joueur 1 : Entrer le nombre à faire deviner compris entre 0 et 50.
+          0 <
+          <input
+            type="number"
+            id="inputPlayerOne"
+            name="inputPlayerOne"
+            placeholder=" ? "
+            required
+          />
+          < 50
         </p>
-        <input
-          type="number"
-          id="inputPlayerOne"
-          name="inputPlayerOne"
-          placeholder="Choississez un nombre"
-          required
-        />
-        <button id="buttonPlayerOne" type="submit">Envoyer</button>
+        <button id="buttonPlayerOne" type="button">Envoyer</button>
+        <h1>Joueur 2 :</h1>
+        <p>Essayer de deviner le nombre proposé par le joueur 1.</p>
         <p>
-          Joueur 2 : Essayer de deviner le nombre proposé par le joueur 1
-          (compris en 0 et 50.)
+          0 <
+          <input
+            type="number"
+            id="inputPlayerTwo"
+            name="inputPlayerTwo"
+            placeholder="?"
+            required
+          />
+          < 50
         </p>
-        <input
-          type="number"
-          id="inputPlayerTwo"
-          name="inputPlayerTwo"
-          placeholder="Entrer votre nombre"
-          required
-        />
-        <button id="buttonPlayerTwo" type="submit">Envoyer</button>
+        <button id="buttonPlayerTwo" type="button">Envoyer</button>
+
+        <div id="boxIndices">
+          <h2>Indices</h2>
+          <p id="indices"></p>
+        </div>
+        <div id="attempts">
+          <h2>Tentatives</h2>
+          <p id="numberAttempts"></p>
+        </div>
       </section>
       <section></section>
     </main>
