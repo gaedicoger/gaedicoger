@@ -3,20 +3,20 @@ let numberToGuess;
 let givenNumber;
 let attempts = 0;
 
-//Je récupère le bouton 1, j'écoute le click et je récupère le nombre:
+//Je récupère le bouton 1, j'écoute le click et je récupère le nombre du joueur 1:
 document
   .querySelector("#buttonPlayerOne")
   .addEventListener("click", function () {
     numberToGuess = Number(document.querySelector("#inputPlayerOne").value); // récupère la valeur du champ input
     console.log(numberToGuess);
   });
-//Je récupère le bouton 2, j'écoute le click et je récupère le nombre,
+//Je récupère le bouton 2, j'écoute le click et je récupère le nombre du joueur 2,
 document
   .querySelector("#buttonPlayerTwo")
   .addEventListener("click", function () {
     attempts += 1; //j'itère dans la variable qui stocke le nombre des tentatives;
-    document.querySelector("#numberAttempts").textContent =
-      attempts + "essais.";
+    document.querySelector("#numberAttempts").textContent = //affiche le nombre de tentatives
+      attempts + " essais.";
     givenNumber = Number(document.querySelector("#inputPlayerTwo").value); //récupère la valeur du champ input
     gamePlay();
     console.log(givenNumber);
