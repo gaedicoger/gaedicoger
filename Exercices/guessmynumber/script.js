@@ -2,14 +2,29 @@
 let numberToGuess;
 let givenNumber;
 let attempts = 0;
+let minNumber = 0;
+let maxNumber = 50;
 
 //Je récupère le bouton 1, j'écoute le click et je récupère le nombre du joueur 1:
 document
   .querySelector("#buttonPlayerOne")
   .addEventListener("click", function () {
-    numberToGuess = Number(document.querySelector("#inputPlayerOne").value); // récupère la valeur du champ input
+    numberToGuess = Number(document.querySelector("#inputPlayerOne").value);
+    if (numberToGuess >= 0 && numberToGuess <= 50) {
+      const okNumber = document.querySelector("#indices");
+      okNumber.textContent = "";
+    } else if (numberToGuess > 50) {
+      const toBig = document.querySelector("#indices");
+      toBig.textContent =
+        "Trop grand ! Veuillez choisir un nombre inférieur ou égal à 50";
+    } else if (numberToGuess <= 0) {
+      const toSmall = document.querySelector("#indices");
+      toSmall.textContent =
+        "Trop petit ! Veuillez choisir un nombre supérieur ou égal à 0"; // récupère la valeur du champ input
+    }
     console.log(numberToGuess);
   });
+
 //Je récupère le bouton 2, j'écoute le click et je récupère le nombre du joueur 2,
 document
   .querySelector("#buttonPlayerTwo")
@@ -42,11 +57,17 @@ function gamePlay() {
     bravo.textContent =
       "Bravo ! Le nombre à deviner était bien : " + numberToGuess + " !";
   } else if (givenNumber < numberToGuess) {
-    const indice1 = document.querySelector("#indices");
-    indice1.textContent = "Plus grand!";
+    minNumber = givenNumber;
+    const dynamicMin = document.querySelector("#dynamicRangeMin");
+    dynamicMin.textContent = minNumber + " < ";
+    //const indice1 = document.querySelector("#indices");
+    //indice1.textContent = "Plus grand!";
   } else {
-    const indice2 = document.querySelector("#indices");
-    indice2.textContent = "Plus petit!";
+    maxNumber = givenNumber;
+    const dynamicMax = document.querySelector("#dynamicRangeMax");
+    dynamicMax.textContent = " < " + maxNumber;
+    //const indice2 = document.querySelector("#indices");
+    //indice2.textContent = "Plus petit!";
   }
   hasWon = didWin(givenNumber, numberToGuess); // déclarée deux fois? Why ?
 }

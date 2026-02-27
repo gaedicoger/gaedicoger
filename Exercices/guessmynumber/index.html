@@ -26,7 +26,7 @@
         <h1>Joueur 2 :</h1>
         <p>Essayer de deviner le nombre proposé par le joueur 1.</p>
         <p>
-          0 <
+          <strong id="dynamicRangeMin"> 0 <</strong>
           <input
             type="number"
             id="inputPlayerTwo"
@@ -34,7 +34,7 @@
             placeholder="?"
             required
           />
-          < 50
+          <strong id="dynamicRangeMax"> < 50 </strong>
         </p>
         <button id="buttonPlayerTwo" type="button">Envoyer</button>
 
@@ -43,7 +43,7 @@
           <div class="square"><p id="indices"></p></div>
         </div>
         <div id="boxAttempts">
-          <div class= "square"><h2>Tentatives</h2></div>
+          <div class="square"><h2>Tentatives</h2></div>
           <div class="square"><p id="numberAttempts"></p></div>
         </div>
       </section>
