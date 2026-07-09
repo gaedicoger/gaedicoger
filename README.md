@@ -46,7 +46,7 @@ Actuellement en formation à **Ada Tech School Nantes** (Concepteur Développeur
 
 ## 💬 Un peu plus sur moi
 
-- 🎨 Graveuse sur linogravure et illustratrice à mes heures perdues
+- 🎨 Graveuse sur lino et illustratrice à mes heures perdues
 - 🐱 Chifu mon chat m'accompagne dans mon apprentissage du code at home!
 - 🌲 J'aime la nature
 - 🎮 Gameuse acutellement :  Star Citizen et Divinity
