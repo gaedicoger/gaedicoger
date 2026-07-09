@@ -1,8 +1,8 @@
 # Salut, moi c'est Gaédic 👋
 
-> Ancienne ingénieure pédagogique reconvertie en développeuse Fullstack — je code avec la même passion que je gravais le bois 🌿
+> Ancienne ingénieure pédagogique reconvertie en développeuse Fullstack —
 
-Actuellement en formation à **Ada Tech School Nantes** (Concepteur Développeur d'Applications — RNCP Niveau 6), je construis des projets qui mêlent créativité, pédagogie et technique.
+Actuellement en formation à **Ada Tech School Nantes** (Concepteur Développeur d'Applications — RNCP Niveau 6), je cherche une alternance d'un an pour finir mon parcours.
 
 ---
 
