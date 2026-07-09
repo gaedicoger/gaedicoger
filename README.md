@@ -36,16 +36,6 @@ Actuellement en formation à **Ada Tech School Nantes** (Concepteur Développeur
 
 ---
 
-## 📊 Mes stats GitHub
-
-![Stats GitHub](https://github-readme-stats.vercel.app/api?username=gaedicoger&show_icons=true&theme=radical&hide_border=true&title_color=fd4d67&icon_color=ffb840&text_color=222222&bg_color=ffffff)
-
-![Langages les plus utilisés](https://github-readme-stats.vercel.app/api/top-langs/?username=gaedicoger&layout=compact&theme=radical&hide_border=true&title_color=fd4d67&text_color=222222&bg_color=ffffff)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=gaedicoger&theme=radical&hide_border=true&ring=fd4d67&fire=ffb840&currStreakLabel=fd4d67)
-
----
-
 ## 🌱 En ce moment
 
 - 🎓 En formation **Concepteur Développeur d'Applications** à Ada Tech School Nantes
