@@ -1,0 +1,24 @@
+{
+  "recipes": [
+    {
+      "category": "desserts",
+      "name": "tiramisu",
+      "required": ["ingredients.txt", "steps.txt"]
+    },
+    {
+      "category": "desserts",
+      "name": "fondant-chocolat",
+      "required": ["ingredients.txt", "steps.txt", "photo.jpg"]
+    },
+    {
+      "category": "plats",
+      "name": "ratatouille",
+      "required": ["ingredients.txt", "steps.txt"]
+    },
+    {
+      "category": "plats",
+      "name": "gratin-dauphinois",
+      "required": ["ingredients.txt", "steps.txt"]
+    }
+  ]
+}

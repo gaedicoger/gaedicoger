@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h1>Joueur 1 :</h1>
+        <p>Entrer le nombre à faire deviner compris entre 0 et 50.</p>
+        <p>
+          0 <
+          <input
+            type="number"
+            id="inputPlayerOne"
+            name="inputPlayerOne"
+            placeholder=" ? "
+            required
+          />
+          < 50
+        </p>
+        <button id="buttonPlayerOne" type="button">Envoyer</button>
+        <h1>Joueur 2 :</h1>
+        <p>Essayer de deviner le nombre proposé par le joueur 1.</p>
+        <p>
+          <strong id="dynamicRangeMin"> 0 <</strong>
+          <input
+            type="number"
+            id="inputPlayerTwo"
+            name="inputPlayerTwo"
+            placeholder="?"
+            required
+          />
+          <strong id="dynamicRangeMax"> < 50 </strong>
+        </p>
+        <button id="buttonPlayerTwo" type="button">Envoyer</button>
+
+        <div id="boxIndices">
+          <div class="square"><h2>Indices</h2></div>
+          <div class="square"><p id="indices"></p></div>
+        </div>
+        <div id="boxAttempts">
+          <div class="square"><h2>Tentatives</h2></div>
+          <div class="square"><p id="numberAttempts"></p></div>
+        </div>
+      </section>
+      <section></section>
+    </main>
+    <footer></footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

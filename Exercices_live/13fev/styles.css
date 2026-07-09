@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.status {
+  padding: 1rem;
+  border: 2px solid #222;
+  border-radius: 8px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #111;
+  color: #fff;
+}
+
+.hint {
+  margin-top: 1rem;
+  opacity: 0.8;
+}
